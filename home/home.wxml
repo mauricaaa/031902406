@@ -1,0 +1,20 @@
+<scroll-view scroll-y class="scrollPage">
+	<view class="UCenter-bg">
+		<image src="/images/logo.png" class="png" mode="widthFix"></image>
+		<view class="text-xl">点名签到
+			<text class="text-df">v1.0</text>
+		</view>
+		<view class="margin-top-sm">
+			<text>欢迎使用</text>
+		</view>
+		<image src="/images/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+	</view>
+  <view class='nav-list'>
+    <navigator open-type="navigate" hover-class='none' url="/pages/basics/{{item.name}}/{{item.name}}" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key>
+      <view class="nav-title">{{item.title}}</view>
+      <view class="nav-name">{{item.name}}</view>
+      <text class='cuIcon-{{item.icon}}'></text>
+    </navigator>
+  </view>
+  <view class='cu-tabbar-height'></view>
+</scroll-view>
