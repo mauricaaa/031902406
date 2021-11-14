@@ -1,0 +1,11 @@
+<!--pages/home/home.wxml-->
+<view class="header">
+   <view class=" tuwen">
+     <image  src="/images/main-1.png" style="width: 250rpx;" mode="widthFix" ></image>
+     <view class="wenzi2"> 
+       <text >欢迎使用</text>
+       <text class="text2">点名小程序</text>
+       </view>    
+   </view>
+</view>
+

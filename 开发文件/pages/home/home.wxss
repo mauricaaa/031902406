@@ -1,0 +1,7 @@
+/* pages/home/home.wxss */
+.header{width: auto;height:110px;background:#3388EE;}
+.container{padding:20rpx;box-sizing: border-box;}
+
+.tuwen{display: flex;flex-direction: row;margin-left: 20rpx;}
+.wenzi2{font-size: 40rpx;margin-left: 150rpx;display: flex;flex-direction: column;color: white;padding: 70rpx;}
+.text2{font-size: 40rpx;word-break: break-all;display: flex;color: white;}

@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/about/about",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#427BEE",
+    "navigationBarTitleText": "点名小程序",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+       "iconPath": "images/home1.png",
+       "selectedIconPath": "images/home.png"
+    },
+    {"pagePath": "pages/about/about",
+      "text": "我的",
+      "iconPath": "images/me1.png",
+      "selectedIconPath": "images/me.png"
+    }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
