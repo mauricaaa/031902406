@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/begin/begin.js
 Page({
 
     /**
@@ -7,22 +7,7 @@ Page({
     data: {
 
     },
-    toupdate : function () {       /*跳转到h2页面 关键代码*/
-        wx.navigateTo({
-        url: '../update/update',                          /*指定跳转到h2界面*/
-        })
-        },
 
-    tobegin : function () {       /*跳转到h2页面 关键代码*/
-        wx.navigateTo({
-        url: '../begin/begin',                          /*指定跳转到h2界面*/
-        })
-        },
-     torecord : function () {       /*跳转到h2页面 关键代码*/
-        wx.navigateTo({
-        url: '../record/record',                          /*指定跳转到h2界面*/
-        })
-        },                   
     /**
      * 生命周期函数--监听页面加载
      */

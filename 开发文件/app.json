@@ -2,8 +2,12 @@
   "pages":[
     "pages/home/home",
     "pages/about/about",
+    "pages/update/update",
+    "pages/begin/begin",
+    "pages/record/record",
     "pages/index/index",
     "pages/logs/logs"
+
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -12,6 +16,8 @@
     "navigationBarTextStyle":"white"
   },
   "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#3388EE",
     "list": [{
       "pagePath": "pages/home/home",
       "text": "首页",
