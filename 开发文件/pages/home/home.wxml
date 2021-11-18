@@ -9,25 +9,25 @@
    </view>
 </view>
 <view class="firstDiv view">
-        <view class="button1" bindtap="toupdate">
+        <view class="button1" bindtap="chooseExcel">
           <text class="usingOp" space="ensp">导入excel </text>
             <image class="option" src="../../images/main-2.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />      
         </view>        
 </view>
 <view class="secondDiv view">
-  <view class="button1"  bindtap="tobegin">       
+  <view class="button1"  bindtap="todianmin">       
             <image class="option1" src="../../images/main-3.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" /> 
             <text class="usingOp1" space="ensp">开始点名</text>     
         </view>     
 </view>
 
 <view class="thirdDiv view">
-  <view class="button1"  bindtap="torecord">
+  <view class="button1"  bindtap="todmlist">
           <text class="usingOp" space="ensp">点名记录</text>
             <image class="option" src="../../images/main-4.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />      
         </view>     
 </view>
 
-
+ 
 
 
