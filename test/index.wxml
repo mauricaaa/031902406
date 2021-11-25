@@ -1,0 +1,27 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">请点名</view>
+</cu-custom>
+
+
+<swiper bindchange="swiperChange" currentIndex="{{currentIndex}}" class="firstDiv" >
+      <swiper-item wx:for="{{list}}" wx:key="{{list.ID}}"  >
+        <view class="page-item"  wx:if="{{currentIndex != null}}">
+    <view class="count-box">
+      <text class="text-current-count"  wx:if="{{currentIndex != null || currentIndex < 0}}">{{currentIndex + 1}}</text>
+      <text class="text-total-count" wx:if="{{currentIndex != null}}">/130</text>  
+  </view>
+  </view>
+          <button  class="{{ item.checked ?'clickbutton':'clickbutton2'}}  " bindtap="checkedbox" data-value="{{item}}"  style="position: relative; left: 5rpx; top: 152rpx; width: 626rpx; height: 628rpx; display: flex; box-sizing: border-box">
+          <text class="textsize" style="width: 530rpx; height: 444rpx; display: block; box-sizing: border-box">{{item.name}}\n
+           {{item.studentID}} </text>
+          </button>
+            
+      </swiper-item>
+        
+  </swiper>
+    
+  
+  <view class="change-question">
+   <button class=" bg-gradual-blue secondDiv view" bindtap="confirm">提交</button>
+  </view>
